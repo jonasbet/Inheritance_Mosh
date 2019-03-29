@@ -10,6 +10,9 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            var text = new Text();
+            text.Copy();
+            Console.ReadKey();
         }
     }
 }

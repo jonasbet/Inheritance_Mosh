@@ -11,7 +11,7 @@ namespace Inheritance
         public int Width { get; set; }
         public int Height { get; set; }
 
-        public void Copy ()
+        public void Copy()
         {
             Console.WriteLine("Object copied to clipboard");
         }
@@ -20,4 +20,5 @@ namespace Inheritance
         {
             Console.WriteLine("Object duplicated");
         }
+    }
 }
